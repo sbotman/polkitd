@@ -19,5 +19,5 @@
 #
 case node['platform_family'] 
 when 'rhel'
-  include_recipe 'polkitd::_rhel' if node['platform_version'].to_i > 6
+  include_recipe 'polkitd::_rhel'
 end

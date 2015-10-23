@@ -17,6 +17,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
+return if node['init_package'].nil?
+return if node['init_package'] != ('systemd')
 
 group 'polkitd'
 group 'ssh_keys'
