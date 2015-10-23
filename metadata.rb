@@ -1,0 +1,8 @@
+name             'polkitd'
+maintainer       'Sander Botman'
+maintainer_email 'sander.botman@gmail.com'
+license          'Apache 2.0'
+description      'Installs/Configures polkitd service'
+long_description 'Installs/Configures polkitd service'
+version          '0.1.0'
+supports         'centos'
